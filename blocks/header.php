@@ -1,5 +1,4 @@
-1111111111111111
-<table width="650px" border="1" cellspacing="0" cellpadding="0" align="center" bgcolor="#cbe3ec">
+<table>
     <tr>
         <td><p align="center">Шапка сайта</p></br></td>
     </tr>
