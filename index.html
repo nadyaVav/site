@@ -1,6 +1,7 @@
 <html>
 <head>
-    <title>Как создать динамическую страницу на PHP</title>
+    <meta charset="utf-8">
+    <title>Пример</title>
 </head>
 <body>
 <!-- начало хедера (header.php) -->
@@ -9,10 +10,10 @@
 <table width="650px" height="150px" border="1" cellspacing="0" cellpadding="0" align="center" bordercolor="313233">
     <tr>
         <!-- Начало блока левого меню (leftmenu.php) -->
-        <?php include ("blocks/leftmenu.php");?>
+        <?php require ("blocks/leftmenu.php"); ?>
         <!-- Конец блока левого меню -->
         <!-- Начало основного блока -->
-        <td><h2 align="center" style="color:#0595ca;">Привет, Мир!</h2>
+        <td><h2 align="center" style="color:#0595ca;">Пи\ривет мир!</h2>
             <p align="center">Это моя первая динамическая страница на PHP. </p>
         </td>
         <!-- Конец основного блока -->
